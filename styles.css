@@ -23,18 +23,28 @@ body{
     flex:2.19 1 0%;
 }
 .first-block{
-    background-color: cornsilk;
-    flex:1 1 0%;
+    background-color: #f5f5f5;
+    flex:0.9 1 0%;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 23%;
 
 }
 .second-block{
     background-color: white;
     flex:1;
+    padding-left: 4%;
+    padding-right: 23%;
+    display: flex;
+    flex-direction: column;
 
 }
 .third-block{
-    background-color: cornsilk;
-    flex:1 1 0%;
+    background-color: #f5f5f5;
+    flex:0.9 1 0%;
+    padding-left: 4%;
+    padding-right: 23%;
+    padding-top: 3%;
 
 }
 
@@ -42,4 +52,82 @@ body{
     display:flex;
     height:100vh;
     width:100vw;
+}
+
+.text-block{
+    font-weight: 550;
+    font-size:24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-block-div{
+    flex:1 1 0%;
+}
+.form-block-div{
+    display:flex;
+    flex-direction: column;
+    flex:3 1 0%;
+    margin-bottom:2%;
+}
+
+.div-wrapper{
+    display: flex;
+    flex:1;
+    margin-bottom: 2%;
+}
+.input-wrapper{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+form{
+    padding:0;
+    margin:0;
+}
+
+input{
+    border:2px solid #E5E7EB ;
+    border-radius: 3px;
+    width: 70%;
+    height:25px;
+}
+
+input:focus{
+    border-color: blue; 
+}
+input:invalid{
+    border-color: red;
+}
+
+.button{
+    width:200px;
+    height:50px;
+    border-radius:5px;
+    border-color: #596D48;
+    background-color: #596D48;
+    color:white;
+    font-weight: bold;
+
+}
+.button:hover{
+    background-color: #7f8e72;
+}
+
+
+.odin-logo{
+    position:absolute;
+    z-index: 1;
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 3.6%;
+    font-weight: bold;
+    font-size: 100px;
+    color:white;
+    background-color: rgb(0,0,0,0.5)
+}
+
+
+.text-odin{
+    display: inline;
+    opacity: 1;
 }
