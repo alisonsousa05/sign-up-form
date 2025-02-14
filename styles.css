@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+    border:0;
+
+
+}
+.left-side{
+    margin:0;
+    padding:0;
+    /* width:31vw; */
+    /* height:99.5vh; */
+    display: flex;
+    flex:1 1 0%;
+}
+.right-side{
+    margin:0;
+    padding:0;
+    /* width:67vw;
+    height:99.5vh; */
+    display: flex;
+    flex-direction: column;
+    flex:2.19 1 0%;
+}
+.first-block{
+    background-color: cornsilk;
+    flex:1 1 0%;
+
+}
+.second-block{
+    background-color: white;
+    flex:1;
+
+}
+.third-block{
+    background-color: cornsilk;
+    flex:1 1 0%;
+
+}
+
+.father{
+    display:flex;
+    height:100vh;
+    width:100vw;
+}
